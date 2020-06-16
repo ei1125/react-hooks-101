@@ -1,15 +1,3 @@
-// action = {
-//   type: 'CREATE_EVENT',
-//   title: 'dddddd',
-//   body: 'ggggggg'
-// }
-
-// state = []
-// state = [
-//   {id:1, title: 'タイトル１', body: 'ボディー1'},
-//   {id:1, title: 'タイトル１', body: 'ボディー1'},
-//   {id:1, title: 'タイトル１', body: 'ボディー1'},
-// ]
 
 const events = (state = [], action) => {
   switch(action.type) {
